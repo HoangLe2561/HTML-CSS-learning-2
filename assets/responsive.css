@@ -1,0 +1,67 @@
+@media (min-width: 64em) {
+    
+}
+
+@media (min-width: 46.1875em) and (max-width: 63.9375em) {
+    main {
+        margin-top: 90px;
+    }
+
+    .header_navbar {
+        max-width: 1023px;
+        margin: 0 18px;
+        max-height: 64px;
+        padding: 12px 0;
+    }
+
+    .navbar_logo img{
+        width: 100px;
+        height: 28px;
+    }
+
+    .navbar_list li {
+        font-size: 2rem;
+        height: 36px;
+        line-height: 36px;
+        padding: 0 18px;
+    }
+
+    .home_transform .styles img {
+        width: 320px;
+        height: 320px;
+    }
+
+}
+
+@media (max-width: 63.9375em) {
+    .home_slider img {
+        width: 100vw;
+        height: 60vh;
+    }
+
+    footer .content {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 36px 58px 10px;
+    }
+
+    footer .about,
+    footer .shop,
+    footer .services,
+    footer .talsma_furniture {
+        width: 50%;
+        margin-bottom: 36px;
+    }
+    
+}
+
+@media (max-width: 46.1875em) {
+    .home_slider img {
+        width: 100vw;
+        height: 40vh;
+    }
+
+    footer .content {
+        flex-direction: column;
+    }
+}
